@@ -8,6 +8,11 @@ function random(min,max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+// BONUS 1: genero la griglia con jquery;
+for(var i = 0; i < 25; i++) {
+    $('.grill').append('<div class = "square"></div>')
+}
+
 // sostituisco precendete ciclo do while con each e creo una variabile per i numeri random;
 $('.square').each(function(){
     var random_numbers = random (0 , 10);
