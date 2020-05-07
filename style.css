@@ -15,11 +15,24 @@
     width: 500px;
     height: 500px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .square {
     width: 100px;
     width: 100px;
     border: 2px solid black;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.red {
+    color: red;
+
+}
+
+.green {
+    color: green;
 }
