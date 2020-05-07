@@ -8,12 +8,9 @@ function random(min,max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// creo una variabile con un array vuoto dove andrò ad inserire i numeri random generati;
-var list_number = [];
-
-// genero per 25 volte un numero random da 0 a 10;
-do {
-    var random_number = random(0, 10);
-    list_number.push(random_number)
-} while (list_number.length < 25)
-console.log(list_number);
+// sostituisco precendete ciclo do while con each e creo una variabile per i numeri random;
+$('.square').each(function(){
+    var random_numbers = random (0 , 10);
+    // ad ogni quadrato aggiungo 1 numero generato;
+    $(this).append(random_numbers)
+})
