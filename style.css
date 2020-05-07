@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.grill {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.square {
+    width: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
